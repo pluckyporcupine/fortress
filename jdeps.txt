@@ -1,0 +1,1020 @@
+. -> java.base
+. -> java.sql
+. -> jdk.compiler
+. -> not found
+   <unnamed>                                          -> com.sun.fortress.compiler.runtimeValues            .
+   <unnamed>                                          -> java.lang                                          java.base
+   com.sun.fortress                                   -> com.sun.fortress.compiler                          .
+   com.sun.fortress                                   -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress                                   -> com.sun.fortress.compiler.phases                   .
+   com.sun.fortress                                   -> com.sun.fortress.exceptions                        .
+   com.sun.fortress                                   -> com.sun.fortress.exceptions.shell                  .
+   com.sun.fortress                                   -> com.sun.fortress.interpreter                       .
+   com.sun.fortress                                   -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress                                   -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress                                   -> com.sun.fortress.nodes                             .
+   com.sun.fortress                                   -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress                                   -> com.sun.fortress.repository                        .
+   com.sun.fortress                                   -> com.sun.fortress.tests.unit_tests                  .
+   com.sun.fortress                                   -> com.sun.fortress.tools                             .
+   com.sun.fortress                                   -> com.sun.fortress.useful                            .
+   com.sun.fortress                                   -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress                                   -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress                                   -> java.io                                            java.base
+   com.sun.fortress                                   -> java.lang                                          java.base
+   com.sun.fortress                                   -> java.util                                          java.base
+   com.sun.fortress                                   -> junit.framework                                    not found
+   com.sun.fortress                                   -> junit.textui                                       not found
+   com.sun.fortress.ant_tasks                         -> java.io                                            java.base
+   com.sun.fortress.ant_tasks                         -> java.lang                                          java.base
+   com.sun.fortress.ant_tasks                         -> java.util                                          java.base
+   com.sun.fortress.ant_tasks                         -> org.apache.tools.ant                               not found
+   com.sun.fortress.ant_tasks                         -> org.apache.tools.ant.taskdefs                      not found
+   com.sun.fortress.ant_tasks                         -> org.apache.tools.ant.types                         not found
+   com.sun.fortress.astgen                            -> edu.rice.cs.astgen                                 not found
+   com.sun.fortress.astgen                            -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.astgen                            -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.astgen                            -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.astgen                            -> java.io                                            java.base
+   com.sun.fortress.astgen                            -> java.lang                                          java.base
+   com.sun.fortress.astgen                            -> java.util                                          java.base
+   com.sun.fortress.compiler                          -> com.sun.fortress                                   .
+   com.sun.fortress.compiler                          -> com.sun.fortress.compiler.codegen                  .
+   com.sun.fortress.compiler                          -> com.sun.fortress.compiler.desugarer                .
+   com.sun.fortress.compiler                          -> com.sun.fortress.compiler.disambiguator            .
+   com.sun.fortress.compiler                          -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.compiler                          -> com.sun.fortress.compiler.phases                   .
+   com.sun.fortress.compiler                          -> com.sun.fortress.compiler.runtimeValues            .
+   com.sun.fortress.compiler                          -> com.sun.fortress.compiler.typechecker              .
+   com.sun.fortress.compiler                          -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.compiler                          -> com.sun.fortress.exceptions.shell                  .
+   com.sun.fortress.compiler                          -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.compiler                          -> com.sun.fortress.nodes                             .
+   com.sun.fortress.compiler                          -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.compiler                          -> com.sun.fortress.parser                            .
+   com.sun.fortress.compiler                          -> com.sun.fortress.parser.import_collector           .
+   com.sun.fortress.compiler                          -> com.sun.fortress.parser.preparser                  .
+   com.sun.fortress.compiler                          -> com.sun.fortress.parser_util                       .
+   com.sun.fortress.compiler                          -> com.sun.fortress.repository                        .
+   com.sun.fortress.compiler                          -> com.sun.fortress.runtimeSystem                     .
+   com.sun.fortress.compiler                          -> com.sun.fortress.scala_src.disambiguator           .
+   com.sun.fortress.compiler                          -> com.sun.fortress.scala_src.linker                  .
+   com.sun.fortress.compiler                          -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.compiler                          -> com.sun.fortress.scala_src.overloading             .
+   com.sun.fortress.compiler                          -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.compiler                          -> com.sun.fortress.scala_src.typechecker.staticenv   .
+   com.sun.fortress.compiler                          -> com.sun.fortress.scala_src.types                   .
+   com.sun.fortress.compiler                          -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.compiler                          -> com.sun.fortress.syntax_abstractions               .
+   com.sun.fortress.compiler                          -> com.sun.fortress.syntax_abstractions.environments  .
+   com.sun.fortress.compiler                          -> com.sun.fortress.syntax_abstractions.phases        .
+   com.sun.fortress.compiler                          -> com.sun.fortress.syntax_abstractions.rats          .
+   com.sun.fortress.compiler                          -> com.sun.fortress.useful                            .
+   com.sun.fortress.compiler                          -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.compiler                          -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.compiler                          -> edu.rice.cs.plt.lambda                             not found
+   com.sun.fortress.compiler                          -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.compiler                          -> fortress                                           .
+   com.sun.fortress.compiler                          -> java.io                                            java.base
+   com.sun.fortress.compiler                          -> java.lang                                          java.base
+   com.sun.fortress.compiler                          -> java.math                                          java.base
+   com.sun.fortress.compiler                          -> java.util                                          java.base
+   com.sun.fortress.compiler                          -> junit.framework                                    not found
+   com.sun.fortress.compiler                          -> junit.swingui                                      not found
+   com.sun.fortress.compiler                          -> org.objectweb.asm                                  not found
+   com.sun.fortress.compiler                          -> scala                                              not found
+   com.sun.fortress.compiler                          -> scala.collection                                   not found
+   com.sun.fortress.compiler                          -> scala.collection.generic                           not found
+   com.sun.fortress.compiler                          -> scala.collection.immutable                         not found
+   com.sun.fortress.compiler                          -> scala.collection.mutable                           not found
+   com.sun.fortress.compiler                          -> scala.reflect                                      not found
+   com.sun.fortress.compiler                          -> scala.runtime                                      not found
+   com.sun.fortress.compiler                          -> xtc.parser                                         not found
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> com.sun.fortress.compiler                          .
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> com.sun.fortress.repository                        .
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> com.sun.fortress.runtimeSystem                     .
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> com.sun.fortress.useful                            .
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> java.io                                            java.base
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> java.lang                                          java.base
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> java.util                                          java.base
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> java.util.jar                                      java.base
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> java.util.zip                                      java.base
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> org.objectweb.asm                                  not found
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> org.objectweb.asm.commons                          not found
+   com.sun.fortress.compiler.asmbytecodeoptimizer     -> org.objectweb.asm.util                             not found
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.compiler                          .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.compiler.asmbytecodeoptimizer     .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.compiler.nativeInterface          .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.compiler.typechecker              .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.nodes                             .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.repository                        .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.runtimeSystem                     .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.scala_src.overloading             .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.scala_src.types                   .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.compiler.codegen                  -> com.sun.fortress.useful                            .
+   com.sun.fortress.compiler.codegen                  -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.compiler.codegen                  -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.compiler.codegen                  -> java.io                                            java.base
+   com.sun.fortress.compiler.codegen                  -> java.lang                                          java.base
+   com.sun.fortress.compiler.codegen                  -> java.math                                          java.base
+   com.sun.fortress.compiler.codegen                  -> java.util                                          java.base
+   com.sun.fortress.compiler.codegen                  -> java.util.jar                                      java.base
+   com.sun.fortress.compiler.codegen                  -> org.objectweb.asm                                  not found
+   com.sun.fortress.compiler.codegen                  -> org.objectweb.asm.util                             not found
+   com.sun.fortress.compiler.codegen                  -> scala                                              not found
+   com.sun.fortress.compiler.codegen                  -> scala.collection                                   not found
+   com.sun.fortress.compiler.codegen                  -> scala.collection.immutable                         not found
+   com.sun.fortress.compiler.codegen                  -> scala.collection.mutable                           not found
+   com.sun.fortress.compiler.codegen                  -> scala.reflect                                      not found
+   com.sun.fortress.compiler.codegen                  -> scala.runtime                                      not found
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress                                   .
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress.compiler                          .
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress.compiler.typechecker              .
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress.nodes                             .
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.compiler.desugarer                -> com.sun.fortress.useful                            .
+   com.sun.fortress.compiler.desugarer                -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.compiler.desugarer                -> java.lang                                          java.base
+   com.sun.fortress.compiler.desugarer                -> java.math                                          java.base
+   com.sun.fortress.compiler.desugarer                -> java.util                                          java.base
+   com.sun.fortress.compiler.desugarer                -> scala                                              not found
+   com.sun.fortress.compiler.desugarer                -> scala.collection                                   not found
+   com.sun.fortress.compiler.desugarer                -> scala.collection.generic                           not found
+   com.sun.fortress.compiler.desugarer                -> scala.collection.immutable                         not found
+   com.sun.fortress.compiler.desugarer                -> scala.collection.mutable                           not found
+   com.sun.fortress.compiler.desugarer                -> scala.reflect                                      not found
+   com.sun.fortress.compiler.desugarer                -> scala.runtime                                      not found
+   com.sun.fortress.compiler.disambiguator            -> com.sun.fortress.compiler                          .
+   com.sun.fortress.compiler.disambiguator            -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.compiler.disambiguator            -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.compiler.disambiguator            -> com.sun.fortress.nodes                             .
+   com.sun.fortress.compiler.disambiguator            -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.compiler.disambiguator            -> com.sun.fortress.useful                            .
+   com.sun.fortress.compiler.disambiguator            -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.compiler.disambiguator            -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.compiler.disambiguator            -> edu.rice.cs.plt.lambda                             not found
+   com.sun.fortress.compiler.disambiguator            -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.compiler.disambiguator            -> java.lang                                          java.base
+   com.sun.fortress.compiler.disambiguator            -> java.util                                          java.base
+   com.sun.fortress.compiler.environments             -> com.sun.fortress                                   .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.compiler                          .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.compiler.phases                   .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.exceptions.shell                  .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.interpreter.env                   .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.interpreter.evaluator.types       .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.nodes                             .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.repository                        .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.runtimeSystem                     .
+   com.sun.fortress.compiler.environments             -> com.sun.fortress.useful                            .
+   com.sun.fortress.compiler.environments             -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.compiler.environments             -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.compiler.environments             -> java.io                                            java.base
+   com.sun.fortress.compiler.environments             -> java.lang                                          java.base
+   com.sun.fortress.compiler.environments             -> java.util                                          java.base
+   com.sun.fortress.compiler.environments             -> junit.framework                                    not found
+   com.sun.fortress.compiler.environments             -> org.objectweb.asm                                  not found
+   com.sun.fortress.compiler.index                    -> com.sun.fortress.compiler                          .
+   com.sun.fortress.compiler.index                    -> com.sun.fortress.compiler.typechecker              .
+   com.sun.fortress.compiler.index                    -> com.sun.fortress.nodes                             .
+   com.sun.fortress.compiler.index                    -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.compiler.index                    -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.compiler.index                    -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.compiler.index                    -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.compiler.index                    -> edu.rice.cs.plt.lambda                             not found
+   com.sun.fortress.compiler.index                    -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.compiler.index                    -> java.lang                                          java.base
+   com.sun.fortress.compiler.index                    -> java.util                                          java.base
+   com.sun.fortress.compiler.nativeInterface          -> com.sun.fortress.compiler                          .
+   com.sun.fortress.compiler.nativeInterface          -> com.sun.fortress.compiler.codegen                  .
+   com.sun.fortress.compiler.nativeInterface          -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.compiler.nativeInterface          -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.compiler.nativeInterface          -> com.sun.fortress.nodes                             .
+   com.sun.fortress.compiler.nativeInterface          -> com.sun.fortress.repository                        .
+   com.sun.fortress.compiler.nativeInterface          -> com.sun.fortress.runtimeSystem                     .
+   com.sun.fortress.compiler.nativeInterface          -> com.sun.fortress.scala_src.types                   .
+   com.sun.fortress.compiler.nativeInterface          -> com.sun.fortress.useful                            .
+   com.sun.fortress.compiler.nativeInterface          -> java.lang                                          java.base
+   com.sun.fortress.compiler.nativeInterface          -> java.util                                          java.base
+   com.sun.fortress.compiler.nativeInterface          -> org.objectweb.asm                                  not found
+   com.sun.fortress.compiler.nativeInterface          -> org.objectweb.asm.commons                          not found
+   com.sun.fortress.compiler.optimization             -> com.sun.fortress.useful                            .
+   com.sun.fortress.compiler.optimization             -> java.lang                                          java.base
+   com.sun.fortress.compiler.optimization             -> java.util                                          java.base
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.compiler                          .
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.compiler.codegen                  .
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.compiler.environments             .
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.nodes                             .
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.repository                        .
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.scala_src.types                   .
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.syntax_abstractions.phases        .
+   com.sun.fortress.compiler.phases                   -> com.sun.fortress.useful                            .
+   com.sun.fortress.compiler.phases                   -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.compiler.phases                   -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.compiler.phases                   -> java.lang                                          java.base
+   com.sun.fortress.compiler.phases                   -> java.util                                          java.base
+   com.sun.fortress.compiler.runtimeValues            -> com.sun.fortress.runtimeSystem                     .
+   com.sun.fortress.compiler.runtimeValues            -> fortress                                           .
+   com.sun.fortress.compiler.runtimeValues            -> java.io                                            java.base
+   com.sun.fortress.compiler.runtimeValues            -> java.lang                                          java.base
+   com.sun.fortress.compiler.runtimeValues            -> java.lang.reflect                                  java.base
+   com.sun.fortress.compiler.runtimeValues            -> java.math                                          java.base
+   com.sun.fortress.compiler.runtimeValues            -> java.util                                          java.base
+   com.sun.fortress.compiler.typechecker              -> com.sun.fortress.compiler                          .
+   com.sun.fortress.compiler.typechecker              -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.compiler.typechecker              -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.compiler.typechecker              -> com.sun.fortress.nodes                             .
+   com.sun.fortress.compiler.typechecker              -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.compiler.typechecker              -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.compiler.typechecker              -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.compiler.typechecker              -> com.sun.fortress.useful                            .
+   com.sun.fortress.compiler.typechecker              -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.compiler.typechecker              -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.compiler.typechecker              -> edu.rice.cs.plt.lambda                             not found
+   com.sun.fortress.compiler.typechecker              -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.compiler.typechecker              -> java.lang                                          java.base
+   com.sun.fortress.compiler.typechecker              -> java.util                                          java.base
+   com.sun.fortress.compiler.typechecker              -> junit.framework                                    not found
+   com.sun.fortress.exceptions                        -> com.sun.fortress.compiler                          .
+   com.sun.fortress.exceptions                        -> com.sun.fortress.exceptions.transactions           .
+   com.sun.fortress.exceptions                        -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.exceptions                        -> com.sun.fortress.interpreter.evaluator.types       .
+   com.sun.fortress.exceptions                        -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.exceptions                        -> com.sun.fortress.nodes                             .
+   com.sun.fortress.exceptions                        -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.exceptions                        -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.exceptions                        -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.exceptions                        -> com.sun.fortress.useful                            .
+   com.sun.fortress.exceptions                        -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.exceptions                        -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.exceptions                        -> java.io                                            java.base
+   com.sun.fortress.exceptions                        -> java.lang                                          java.base
+   com.sun.fortress.exceptions                        -> java.util                                          java.base
+   com.sun.fortress.exceptions                        -> java.util.regex                                    java.base
+   com.sun.fortress.exceptions                        -> scala                                              not found
+   com.sun.fortress.exceptions                        -> scala.collection                                   not found
+   com.sun.fortress.exceptions                        -> scala.collection.generic                           not found
+   com.sun.fortress.exceptions                        -> scala.collection.immutable                         not found
+   com.sun.fortress.exceptions                        -> scala.collection.mutable                           not found
+   com.sun.fortress.exceptions                        -> scala.math                                         not found
+   com.sun.fortress.exceptions                        -> scala.reflect                                      not found
+   com.sun.fortress.exceptions                        -> scala.runtime                                      not found
+   com.sun.fortress.exceptions                        -> xtc.parser                                         not found
+   com.sun.fortress.exceptions                        -> xtc.tree                                           not found
+   com.sun.fortress.exceptions.shell                  -> java.lang                                          java.base
+   com.sun.fortress.exceptions.transactions           -> com.sun.fortress.interpreter.evaluator.transactions .
+   com.sun.fortress.exceptions.transactions           -> java.lang                                          java.base
+   com.sun.fortress.fib_tests                         -> java.io                                            java.base
+   com.sun.fortress.fib_tests                         -> java.lang                                          java.base
+   com.sun.fortress.fib_tests                         -> jsr166y                                            not found
+   com.sun.fortress.interpreter                       -> com.sun.fortress.compiler                          .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.interpreter.env                   .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.interpreter.evaluator.tasks       .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.interpreter.evaluator.types       .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.interpreter.glue.prim             .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.repository                        .
+   com.sun.fortress.interpreter                       -> com.sun.fortress.useful                            .
+   com.sun.fortress.interpreter                       -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.interpreter                       -> java.io                                            java.base
+   com.sun.fortress.interpreter                       -> java.lang                                          java.base
+   com.sun.fortress.interpreter                       -> java.util                                          java.base
+   com.sun.fortress.interpreter                       -> jsr166y                                            not found
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.compiler                          .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.compiler.environments             .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.exceptions.transactions           .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.interpreter.evaluator.tasks       .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.interpreter.evaluator.transactions .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.interpreter.evaluator.types       .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.interpreter.rewrite               .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.repository                        .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.runtimeSystem                     .
+   com.sun.fortress.interpreter.env                   -> com.sun.fortress.useful                            .
+   com.sun.fortress.interpreter.env                   -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.interpreter.env                   -> java.io                                            java.base
+   com.sun.fortress.interpreter.env                   -> java.lang                                          java.base
+   com.sun.fortress.interpreter.env                   -> java.util                                          java.base
+   com.sun.fortress.interpreter.env                   -> java.util.concurrent.atomic                        java.base
+   com.sun.fortress.interpreter.env                   -> org.objectweb.asm                                  not found
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.compiler                          .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.exceptions.transactions           .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.interpreter                       .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.interpreter.env                   .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.interpreter.evaluator.tasks       .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.interpreter.evaluator.types       .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.interpreter.glue                  .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.interpreter.rewrite               .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.repository                        .
+   com.sun.fortress.interpreter.evaluator             -> com.sun.fortress.useful                            .
+   com.sun.fortress.interpreter.evaluator             -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.interpreter.evaluator             -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.interpreter.evaluator             -> java.io                                            java.base
+   com.sun.fortress.interpreter.evaluator             -> java.lang                                          java.base
+   com.sun.fortress.interpreter.evaluator             -> java.lang.reflect                                  java.base
+   com.sun.fortress.interpreter.evaluator             -> java.math                                          java.base
+   com.sun.fortress.interpreter.evaluator             -> java.util                                          java.base
+   com.sun.fortress.interpreter.evaluator             -> java.util.concurrent                               java.base
+   com.sun.fortress.interpreter.evaluator             -> java.util.concurrent.locks                         java.base
+   com.sun.fortress.interpreter.evaluator.scopes      -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.interpreter.evaluator.scopes      -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter.evaluator.scopes      -> java.lang                                          java.base
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.exceptions.transactions           .
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.interpreter                       .
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.interpreter.evaluator.transactions .
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.interpreter.evaluator.transactions.manager .
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.repository                        .
+   com.sun.fortress.interpreter.evaluator.tasks       -> com.sun.fortress.useful                            .
+   com.sun.fortress.interpreter.evaluator.tasks       -> java.io                                            java.base
+   com.sun.fortress.interpreter.evaluator.tasks       -> java.lang                                          java.base
+   com.sun.fortress.interpreter.evaluator.tasks       -> java.util                                          java.base
+   com.sun.fortress.interpreter.evaluator.tasks       -> java.util.concurrent                               java.base
+   com.sun.fortress.interpreter.evaluator.tasks       -> java.util.concurrent.atomic                        java.base
+   com.sun.fortress.interpreter.evaluator.tasks       -> jsr166y                                            not found
+   com.sun.fortress.interpreter.evaluator.transactions -> com.sun.fortress.exceptions.transactions           .
+   com.sun.fortress.interpreter.evaluator.transactions -> com.sun.fortress.interpreter.env                   .
+   com.sun.fortress.interpreter.evaluator.transactions -> com.sun.fortress.interpreter.evaluator.tasks       .
+   com.sun.fortress.interpreter.evaluator.transactions -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.interpreter.evaluator.transactions -> java.lang                                          java.base
+   com.sun.fortress.interpreter.evaluator.transactions -> java.util                                          java.base
+   com.sun.fortress.interpreter.evaluator.transactions -> java.util.concurrent                               java.base
+   com.sun.fortress.interpreter.evaluator.transactions -> java.util.concurrent.atomic                        java.base
+   com.sun.fortress.interpreter.evaluator.transactions.manager -> com.sun.fortress.interpreter.evaluator.tasks       .
+   com.sun.fortress.interpreter.evaluator.transactions.manager -> com.sun.fortress.interpreter.evaluator.transactions .
+   com.sun.fortress.interpreter.evaluator.transactions.manager -> com.sun.fortress.interpreter.evaluator.transactions.util .
+   com.sun.fortress.interpreter.evaluator.transactions.manager -> java.lang                                          java.base
+   com.sun.fortress.interpreter.evaluator.transactions.manager -> java.util                                          java.base
+   com.sun.fortress.interpreter.evaluator.transactions.util -> java.io                                            java.base
+   com.sun.fortress.interpreter.evaluator.transactions.util -> java.lang                                          java.base
+   com.sun.fortress.interpreter.evaluator.transactions.util -> java.util                                          java.base
+   com.sun.fortress.interpreter.evaluator.types       -> com.sun.fortress.compiler                          .
+   com.sun.fortress.interpreter.evaluator.types       -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.interpreter.evaluator.types       -> com.sun.fortress.interpreter.env                   .
+   com.sun.fortress.interpreter.evaluator.types       -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.interpreter.evaluator.types       -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.interpreter.evaluator.types       -> com.sun.fortress.interpreter.rewrite               .
+   com.sun.fortress.interpreter.evaluator.types       -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter.evaluator.types       -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.interpreter.evaluator.types       -> com.sun.fortress.useful                            .
+   com.sun.fortress.interpreter.evaluator.types       -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.interpreter.evaluator.types       -> java.io                                            java.base
+   com.sun.fortress.interpreter.evaluator.types       -> java.lang                                          java.base
+   com.sun.fortress.interpreter.evaluator.types       -> java.math                                          java.base
+   com.sun.fortress.interpreter.evaluator.types       -> java.util                                          java.base
+   com.sun.fortress.interpreter.evaluator.types       -> java.util.concurrent.locks                         java.base
+   com.sun.fortress.interpreter.evaluator.types       -> junit.swingui                                      not found
+   com.sun.fortress.interpreter.evaluator.values      -> com.naturalbridge.misc                             not found
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.compiler                          .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.exceptions.transactions           .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.interpreter                       .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.interpreter.env                   .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.interpreter.evaluator.scopes      .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.interpreter.evaluator.types       .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.interpreter.glue                  .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.interpreter.evaluator.values      -> com.sun.fortress.useful                            .
+   com.sun.fortress.interpreter.evaluator.values      -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.interpreter.evaluator.values      -> java.io                                            java.base
+   com.sun.fortress.interpreter.evaluator.values      -> java.lang                                          java.base
+   com.sun.fortress.interpreter.evaluator.values      -> java.math                                          java.base
+   com.sun.fortress.interpreter.evaluator.values      -> java.util                                          java.base
+   com.sun.fortress.interpreter.evaluator.values      -> java.util.concurrent.locks                         java.base
+   com.sun.fortress.interpreter.glue                  -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.interpreter.glue                  -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.interpreter.glue                  -> com.sun.fortress.interpreter.evaluator.types       .
+   com.sun.fortress.interpreter.glue                  -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.interpreter.glue                  -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter.glue                  -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.interpreter.glue                  -> com.sun.fortress.useful                            .
+   com.sun.fortress.interpreter.glue                  -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.interpreter.glue                  -> java.io                                            java.base
+   com.sun.fortress.interpreter.glue                  -> java.lang                                          java.base
+   com.sun.fortress.interpreter.glue                  -> java.util                                          java.base
+   com.sun.fortress.interpreter.glue.prim             -> com.naturalbridge.misc                             not found
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.exceptions.transactions           .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.interpreter                       .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.interpreter.evaluator.tasks       .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.interpreter.evaluator.transactions .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.interpreter.evaluator.types       .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.interpreter.glue                  .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.numerics                          .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.repository                        .
+   com.sun.fortress.interpreter.glue.prim             -> com.sun.fortress.useful                            .
+   com.sun.fortress.interpreter.glue.prim             -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.interpreter.glue.prim             -> java.io                                            java.base
+   com.sun.fortress.interpreter.glue.prim             -> java.lang                                          java.base
+   com.sun.fortress.interpreter.glue.prim             -> java.math                                          java.base
+   com.sun.fortress.interpreter.glue.prim             -> java.nio.charset                                   java.base
+   com.sun.fortress.interpreter.glue.prim             -> java.util                                          java.base
+   com.sun.fortress.interpreter.glue.prim             -> java.util.regex                                    java.base
+   com.sun.fortress.interpreter.glue.prim             -> jsr166y                                            not found
+   com.sun.fortress.interpreter.glue.test             -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.interpreter.glue.test             -> com.sun.fortress.interpreter.evaluator.types       .
+   com.sun.fortress.interpreter.glue.test             -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.interpreter.glue.test             -> com.sun.fortress.interpreter.glue                  .
+   com.sun.fortress.interpreter.glue.test             -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter.glue.test             -> java.lang                                          java.base
+   com.sun.fortress.interpreter.glue.test             -> java.util                                          java.base
+   com.sun.fortress.interpreter.reader                -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.interpreter.reader                -> java.io                                            java.base
+   com.sun.fortress.interpreter.reader                -> java.lang                                          java.base
+   com.sun.fortress.interpreter.rewrite               -> com.sun.fortress.compiler                          .
+   com.sun.fortress.interpreter.rewrite               -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.interpreter.rewrite               -> com.sun.fortress.nodes                             .
+   com.sun.fortress.interpreter.rewrite               -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.interpreter.rewrite               -> com.sun.fortress.useful                            .
+   com.sun.fortress.interpreter.rewrite               -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.interpreter.rewrite               -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.interpreter.rewrite               -> java.lang                                          java.base
+   com.sun.fortress.interpreter.rewrite               -> java.util                                          java.base
+   com.sun.fortress.linker                            -> com.sun.fortress.nodes                             .
+   com.sun.fortress.linker                            -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.linker                            -> com.sun.fortress.repository                        .
+   com.sun.fortress.linker                            -> com.sun.fortress.runtimeSystem                     .
+   com.sun.fortress.linker                            -> com.sun.fortress.useful                            .
+   com.sun.fortress.linker                            -> java.io                                            java.base
+   com.sun.fortress.linker                            -> java.lang                                          java.base
+   com.sun.fortress.linker                            -> java.util                                          java.base
+   com.sun.fortress.linker                            -> java.util.jar                                      java.base
+   com.sun.fortress.linker                            -> java.util.zip                                      java.base
+   com.sun.fortress.nativeHelpers                     -> com.sun.fortress.compiler.runtimeValues            .
+   com.sun.fortress.nativeHelpers                     -> com.sun.fortress.runtimeSystem                     .
+   com.sun.fortress.nativeHelpers                     -> com.sun.fortress.useful                            .
+   com.sun.fortress.nativeHelpers                     -> fortress                                           .
+   com.sun.fortress.nativeHelpers                     -> java.io                                            java.base
+   com.sun.fortress.nativeHelpers                     -> java.lang                                          java.base
+   com.sun.fortress.nativeHelpers                     -> java.lang.reflect                                  java.base
+   com.sun.fortress.nativeHelpers                     -> java.math                                          java.base
+   com.sun.fortress.nativeHelpers                     -> java.nio.charset                                   java.base
+   com.sun.fortress.nativeHelpers                     -> jsr166y                                            not found
+   com.sun.fortress.nodes                             -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.nodes                             -> com.sun.fortress.useful                            .
+   com.sun.fortress.nodes                             -> edu.rice.cs.plt.lambda                             not found
+   com.sun.fortress.nodes                             -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.nodes                             -> java.io                                            java.base
+   com.sun.fortress.nodes                             -> java.lang                                          java.base
+   com.sun.fortress.nodes                             -> java.math                                          java.base
+   com.sun.fortress.nodes                             -> java.util                                          java.base
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.compiler                          .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.exceptions.shell                  .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.interpreter.reader                .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.nodes                             .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.parser                            .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.parser_util                       .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.parser_util.precedence_resolver   .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.repository                        .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.tools                             .
+   com.sun.fortress.nodes_util                        -> com.sun.fortress.useful                            .
+   com.sun.fortress.nodes_util                        -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.nodes_util                        -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.nodes_util                        -> edu.rice.cs.plt.lambda                             not found
+   com.sun.fortress.nodes_util                        -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.nodes_util                        -> java.io                                            java.base
+   com.sun.fortress.nodes_util                        -> java.lang                                          java.base
+   com.sun.fortress.nodes_util                        -> java.lang.reflect                                  java.base
+   com.sun.fortress.nodes_util                        -> java.math                                          java.base
+   com.sun.fortress.nodes_util                        -> java.nio.charset                                   java.base
+   com.sun.fortress.nodes_util                        -> java.util                                          java.base
+   com.sun.fortress.nodes_util                        -> junit.framework                                    not found
+   com.sun.fortress.nodes_util                        -> scala                                              not found
+   com.sun.fortress.nodes_util                        -> scala.collection                                   not found
+   com.sun.fortress.nodes_util                        -> scala.collection.generic                           not found
+   com.sun.fortress.nodes_util                        -> scala.collection.immutable                         not found
+   com.sun.fortress.nodes_util                        -> scala.math                                         not found
+   com.sun.fortress.nodes_util                        -> scala.reflect                                      not found
+   com.sun.fortress.nodes_util                        -> scala.runtime                                      not found
+   com.sun.fortress.numerics                          -> java.io                                            java.base
+   com.sun.fortress.numerics                          -> java.lang                                          java.base
+   com.sun.fortress.numerics                          -> junit.framework                                    not found
+   com.sun.fortress.parser                            -> com.sun.fortress                                   .
+   com.sun.fortress.parser                            -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.parser                            -> com.sun.fortress.nodes                             .
+   com.sun.fortress.parser                            -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.parser                            -> com.sun.fortress.parser_util                       .
+   com.sun.fortress.parser                            -> com.sun.fortress.parser_util.precedence_opexpr     .
+   com.sun.fortress.parser                            -> com.sun.fortress.parser_util.precedence_resolver   .
+   com.sun.fortress.parser                            -> com.sun.fortress.useful                            .
+   com.sun.fortress.parser                            -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.parser                            -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.parser                            -> java.io                                            java.base
+   com.sun.fortress.parser                            -> java.lang                                          java.base
+   com.sun.fortress.parser                            -> java.util                                          java.base
+   com.sun.fortress.parser                            -> xtc.parser                                         not found
+   com.sun.fortress.parser                            -> xtc.util                                           not found
+   com.sun.fortress.parser.import_collector           -> com.sun.fortress.nodes                             .
+   com.sun.fortress.parser.import_collector           -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.parser.import_collector           -> com.sun.fortress.parser_util.precedence_resolver   .
+   com.sun.fortress.parser.import_collector           -> com.sun.fortress.useful                            .
+   com.sun.fortress.parser.import_collector           -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.parser.import_collector           -> java.io                                            java.base
+   com.sun.fortress.parser.import_collector           -> java.lang                                          java.base
+   com.sun.fortress.parser.import_collector           -> java.util                                          java.base
+   com.sun.fortress.parser.import_collector           -> xtc.parser                                         not found
+   com.sun.fortress.parser.import_collector           -> xtc.util                                           not found
+   com.sun.fortress.parser.preparser                  -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.parser.preparser                  -> com.sun.fortress.nodes                             .
+   com.sun.fortress.parser.preparser                  -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.parser.preparser                  -> com.sun.fortress.parser_util.precedence_resolver   .
+   com.sun.fortress.parser.preparser                  -> com.sun.fortress.repository                        .
+   com.sun.fortress.parser.preparser                  -> com.sun.fortress.useful                            .
+   com.sun.fortress.parser.preparser                  -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.parser.preparser                  -> java.io                                            java.base
+   com.sun.fortress.parser.preparser                  -> java.lang                                          java.base
+   com.sun.fortress.parser.preparser                  -> java.util                                          java.base
+   com.sun.fortress.parser.preparser                  -> xtc.parser                                         not found
+   com.sun.fortress.parser.preparser                  -> xtc.util                                           not found
+   com.sun.fortress.parser.templateparser             -> com.sun.fortress                                   .
+   com.sun.fortress.parser.templateparser             -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.parser.templateparser             -> com.sun.fortress.nodes                             .
+   com.sun.fortress.parser.templateparser             -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.parser.templateparser             -> com.sun.fortress.parser_util                       .
+   com.sun.fortress.parser.templateparser             -> com.sun.fortress.parser_util.precedence_opexpr     .
+   com.sun.fortress.parser.templateparser             -> com.sun.fortress.parser_util.precedence_resolver   .
+   com.sun.fortress.parser.templateparser             -> com.sun.fortress.repository                        .
+   com.sun.fortress.parser.templateparser             -> com.sun.fortress.useful                            .
+   com.sun.fortress.parser.templateparser             -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.parser.templateparser             -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.parser.templateparser             -> java.io                                            java.base
+   com.sun.fortress.parser.templateparser             -> java.lang                                          java.base
+   com.sun.fortress.parser.templateparser             -> java.util                                          java.base
+   com.sun.fortress.parser.templateparser             -> xtc.parser                                         not found
+   com.sun.fortress.parser.templateparser             -> xtc.util                                           not found
+   com.sun.fortress.parser_util                       -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.parser_util                       -> com.sun.fortress.nodes                             .
+   com.sun.fortress.parser_util                       -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.parser_util                       -> com.sun.fortress.useful                            .
+   com.sun.fortress.parser_util                       -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.parser_util                       -> java.io                                            java.base
+   com.sun.fortress.parser_util                       -> java.lang                                          java.base
+   com.sun.fortress.parser_util                       -> java.util                                          java.base
+   com.sun.fortress.parser_util                       -> java.util.regex                                    java.base
+   com.sun.fortress.parser_util                       -> junit.framework                                    not found
+   com.sun.fortress.parser_util.instrumentation       -> com.sun.fortress.useful                            .
+   com.sun.fortress.parser_util.instrumentation       -> edu.rice.cs.plt.io                                 not found
+   com.sun.fortress.parser_util.instrumentation       -> java.io                                            java.base
+   com.sun.fortress.parser_util.instrumentation       -> java.lang                                          java.base
+   com.sun.fortress.parser_util.instrumentation       -> java.lang.reflect                                  java.base
+   com.sun.fortress.parser_util.instrumentation       -> java.util                                          java.base
+   com.sun.fortress.parser_util.instrumentation       -> xtc.parser                                         not found
+   com.sun.fortress.parser_util.instrumentation       -> xtc.tree                                           not found
+   com.sun.fortress.parser_util.instrumentation       -> xtc.type                                           not found
+   com.sun.fortress.parser_util.instrumentation       -> xtc.util                                           not found
+   com.sun.fortress.parser_util.precedence_opexpr     -> com.sun.fortress.nodes                             .
+   com.sun.fortress.parser_util.precedence_opexpr     -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.parser_util.precedence_opexpr     -> com.sun.fortress.parser_util.precedence_resolver   .
+   com.sun.fortress.parser_util.precedence_opexpr     -> com.sun.fortress.useful                            .
+   com.sun.fortress.parser_util.precedence_opexpr     -> java.io                                            java.base
+   com.sun.fortress.parser_util.precedence_opexpr     -> java.lang                                          java.base
+   com.sun.fortress.parser_util.precedence_opexpr     -> java.math                                          java.base
+   com.sun.fortress.parser_util.precedence_resolver   -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.parser_util.precedence_resolver   -> com.sun.fortress.nodes                             .
+   com.sun.fortress.parser_util.precedence_resolver   -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.parser_util.precedence_resolver   -> com.sun.fortress.parser_util.precedence_opexpr     .
+   com.sun.fortress.parser_util.precedence_resolver   -> com.sun.fortress.useful                            .
+   com.sun.fortress.parser_util.precedence_resolver   -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.parser_util.precedence_resolver   -> java.io                                            java.base
+   com.sun.fortress.parser_util.precedence_resolver   -> java.lang                                          java.base
+   com.sun.fortress.parser_util.precedence_resolver   -> java.lang.reflect                                  java.base
+   com.sun.fortress.parser_util.precedence_resolver   -> java.util                                          java.base
+   com.sun.fortress.parser_util.precedence_resolver   -> junit.textui                                       not found
+   com.sun.fortress.repository                        -> com.sun.fortress                                   .
+   com.sun.fortress.repository                        -> com.sun.fortress.compiler                          .
+   com.sun.fortress.repository                        -> com.sun.fortress.compiler.environments             .
+   com.sun.fortress.repository                        -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.repository                        -> com.sun.fortress.compiler.nativeInterface          .
+   com.sun.fortress.repository                        -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.repository                        -> com.sun.fortress.exceptions.shell                  .
+   com.sun.fortress.repository                        -> com.sun.fortress.linker                            .
+   com.sun.fortress.repository                        -> com.sun.fortress.nodes                             .
+   com.sun.fortress.repository                        -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.repository                        -> com.sun.fortress.repository.graph                  .
+   com.sun.fortress.repository                        -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.repository                        -> com.sun.fortress.scala_src.types                   .
+   com.sun.fortress.repository                        -> com.sun.fortress.useful                            .
+   com.sun.fortress.repository                        -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.repository                        -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.repository                        -> java.io                                            java.base
+   com.sun.fortress.repository                        -> java.lang                                          java.base
+   com.sun.fortress.repository                        -> java.sql                                           java.sql
+   com.sun.fortress.repository                        -> java.util                                          java.base
+   com.sun.fortress.repository                        -> org.objectweb.asm                                  not found
+   com.sun.fortress.repository                        -> org.objectweb.asm.tree                             not found
+   com.sun.fortress.repository.graph                  -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.repository.graph                  -> com.sun.fortress.nodes                             .
+   com.sun.fortress.repository.graph                  -> com.sun.fortress.useful                            .
+   com.sun.fortress.repository.graph                  -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.repository.graph                  -> java.io                                            java.base
+   com.sun.fortress.repository.graph                  -> java.lang                                          java.base
+   com.sun.fortress.repository.graph                  -> java.util                                          java.base
+   com.sun.fortress.runtimeSystem                     -> com.sun.fortress.compiler                          .
+   com.sun.fortress.runtimeSystem                     -> com.sun.fortress.compiler.codegen                  .
+   com.sun.fortress.runtimeSystem                     -> com.sun.fortress.compiler.nativeInterface          .
+   com.sun.fortress.runtimeSystem                     -> com.sun.fortress.compiler.runtimeValues            .
+   com.sun.fortress.runtimeSystem                     -> com.sun.fortress.repository                        .
+   com.sun.fortress.runtimeSystem                     -> com.sun.fortress.useful                            .
+   com.sun.fortress.runtimeSystem                     -> java.io                                            java.base
+   com.sun.fortress.runtimeSystem                     -> java.lang                                          java.base
+   com.sun.fortress.runtimeSystem                     -> java.lang.reflect                                  java.base
+   com.sun.fortress.runtimeSystem                     -> java.util                                          java.base
+   com.sun.fortress.runtimeSystem                     -> java.util.concurrent                               java.base
+   com.sun.fortress.runtimeSystem                     -> java.util.concurrent.atomic                        java.base
+   com.sun.fortress.runtimeSystem                     -> java.util.jar                                      java.base
+   com.sun.fortress.runtimeSystem                     -> java.util.zip                                      java.base
+   com.sun.fortress.runtimeSystem                     -> jsr166y                                            not found
+   com.sun.fortress.runtimeSystem                     -> junit.framework                                    not found
+   com.sun.fortress.runtimeSystem                     -> org.objectweb.asm                                  not found
+   com.sun.fortress.runtimeSystem                     -> org.objectweb.asm.util                             not found
+   com.sun.fortress.scala_src.disambiguator           -> com.sun.fortress.compiler                          .
+   com.sun.fortress.scala_src.disambiguator           -> com.sun.fortress.compiler.disambiguator            .
+   com.sun.fortress.scala_src.disambiguator           -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.scala_src.disambiguator           -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.scala_src.disambiguator           -> com.sun.fortress.nodes                             .
+   com.sun.fortress.scala_src.disambiguator           -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.scala_src.disambiguator           -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.scala_src.disambiguator           -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.scala_src.disambiguator           -> com.sun.fortress.useful                            .
+   com.sun.fortress.scala_src.disambiguator           -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.scala_src.disambiguator           -> java.io                                            java.base
+   com.sun.fortress.scala_src.disambiguator           -> java.lang                                          java.base
+   com.sun.fortress.scala_src.disambiguator           -> java.util                                          java.base
+   com.sun.fortress.scala_src.disambiguator           -> scala                                              not found
+   com.sun.fortress.scala_src.disambiguator           -> scala.collection                                   not found
+   com.sun.fortress.scala_src.disambiguator           -> scala.collection.generic                           not found
+   com.sun.fortress.scala_src.disambiguator           -> scala.collection.immutable                         not found
+   com.sun.fortress.scala_src.disambiguator           -> scala.collection.mutable                           not found
+   com.sun.fortress.scala_src.disambiguator           -> scala.reflect                                      not found
+   com.sun.fortress.scala_src.disambiguator           -> scala.runtime                                      not found
+   com.sun.fortress.scala_src.linker                  -> com.sun.fortress.compiler                          .
+   com.sun.fortress.scala_src.linker                  -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.scala_src.linker                  -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.scala_src.linker                  -> com.sun.fortress.nodes                             .
+   com.sun.fortress.scala_src.linker                  -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.scala_src.linker                  -> com.sun.fortress.repository                        .
+   com.sun.fortress.scala_src.linker                  -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.scala_src.linker                  -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.scala_src.linker                  -> com.sun.fortress.useful                            .
+   com.sun.fortress.scala_src.linker                  -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.scala_src.linker                  -> java.lang                                          java.base
+   com.sun.fortress.scala_src.linker                  -> java.util                                          java.base
+   com.sun.fortress.scala_src.linker                  -> scala                                              not found
+   com.sun.fortress.scala_src.linker                  -> scala.collection                                   not found
+   com.sun.fortress.scala_src.linker                  -> scala.collection.generic                           not found
+   com.sun.fortress.scala_src.linker                  -> scala.collection.immutable                         not found
+   com.sun.fortress.scala_src.linker                  -> scala.collection.mutable                           not found
+   com.sun.fortress.scala_src.linker                  -> scala.reflect                                      not found
+   com.sun.fortress.scala_src.linker                  -> scala.runtime                                      not found
+   com.sun.fortress.scala_src.nodes                   -> com.sun.fortress.nodes                             .
+   com.sun.fortress.scala_src.nodes                   -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.scala_src.nodes                   -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.scala_src.nodes                   -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.scala_src.nodes                   -> java.lang                                          java.base
+   com.sun.fortress.scala_src.nodes                   -> java.math                                          java.base
+   com.sun.fortress.scala_src.nodes                   -> java.util                                          java.base
+   com.sun.fortress.scala_src.nodes                   -> scala                                              not found
+   com.sun.fortress.scala_src.nodes                   -> scala.collection                                   not found
+   com.sun.fortress.scala_src.nodes                   -> scala.collection.generic                           not found
+   com.sun.fortress.scala_src.nodes                   -> scala.collection.immutable                         not found
+   com.sun.fortress.scala_src.nodes                   -> scala.reflect                                      not found
+   com.sun.fortress.scala_src.nodes                   -> scala.runtime                                      not found
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.compiler                          .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.compiler.typechecker              .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.nodes                             .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.parser_util                       .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.scala_src.typechecker.staticenv   .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.scala_src.types                   .
+   com.sun.fortress.scala_src.overloading             -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.scala_src.overloading             -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.scala_src.overloading             -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.scala_src.overloading             -> java.lang                                          java.base
+   com.sun.fortress.scala_src.overloading             -> java.util                                          java.base
+   com.sun.fortress.scala_src.overloading             -> junit.framework                                    not found
+   com.sun.fortress.scala_src.overloading             -> scala                                              not found
+   com.sun.fortress.scala_src.overloading             -> scala.collection                                   not found
+   com.sun.fortress.scala_src.overloading             -> scala.collection.generic                           not found
+   com.sun.fortress.scala_src.overloading             -> scala.collection.immutable                         not found
+   com.sun.fortress.scala_src.overloading             -> scala.collection.mutable                           not found
+   com.sun.fortress.scala_src.overloading             -> scala.math                                         not found
+   com.sun.fortress.scala_src.overloading             -> scala.reflect                                      not found
+   com.sun.fortress.scala_src.overloading             -> scala.runtime                                      not found
+   com.sun.fortress.scala_src.overloading             -> scala.util.parsing.combinator                      not found
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.compiler                          .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.compiler.typechecker              .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.nodes                             .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.parser_util                       .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.repository                        .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.scala_src.linker                  .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.scala_src.overloading             .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.scala_src.typechecker.impls       .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.scala_src.typechecker.staticenv   .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.scala_src.types                   .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.scala_src.typechecker             -> com.sun.fortress.useful                            .
+   com.sun.fortress.scala_src.typechecker             -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.scala_src.typechecker             -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.scala_src.typechecker             -> edu.rice.cs.plt.lambda                             not found
+   com.sun.fortress.scala_src.typechecker             -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.scala_src.typechecker             -> java.lang                                          java.base
+   com.sun.fortress.scala_src.typechecker             -> java.util                                          java.base
+   com.sun.fortress.scala_src.typechecker             -> junit.framework                                    not found
+   com.sun.fortress.scala_src.typechecker             -> scala                                              not found
+   com.sun.fortress.scala_src.typechecker             -> scala.collection                                   not found
+   com.sun.fortress.scala_src.typechecker             -> scala.collection.generic                           not found
+   com.sun.fortress.scala_src.typechecker             -> scala.collection.immutable                         not found
+   com.sun.fortress.scala_src.typechecker             -> scala.collection.mutable                           not found
+   com.sun.fortress.scala_src.typechecker             -> scala.collection.parallel                          not found
+   com.sun.fortress.scala_src.typechecker             -> scala.math                                         not found
+   com.sun.fortress.scala_src.typechecker             -> scala.reflect                                      not found
+   com.sun.fortress.scala_src.typechecker             -> scala.runtime                                      not found
+   com.sun.fortress.scala_src.typechecker             -> scala.util.parsing.combinator                      not found
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.compiler                          .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.compiler.codegen                  .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.nodes                             .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.repository                        .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.scala_src.typechecker.staticenv   .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.scala_src.types                   .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.scala_src.typechecker.impls       -> com.sun.fortress.useful                            .
+   com.sun.fortress.scala_src.typechecker.impls       -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.scala_src.typechecker.impls       -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.scala_src.typechecker.impls       -> java.io                                            java.base
+   com.sun.fortress.scala_src.typechecker.impls       -> java.lang                                          java.base
+   com.sun.fortress.scala_src.typechecker.impls       -> java.math                                          java.base
+   com.sun.fortress.scala_src.typechecker.impls       -> java.util                                          java.base
+   com.sun.fortress.scala_src.typechecker.impls       -> scala                                              not found
+   com.sun.fortress.scala_src.typechecker.impls       -> scala.collection                                   not found
+   com.sun.fortress.scala_src.typechecker.impls       -> scala.collection.generic                           not found
+   com.sun.fortress.scala_src.typechecker.impls       -> scala.collection.immutable                         not found
+   com.sun.fortress.scala_src.typechecker.impls       -> scala.collection.mutable                           not found
+   com.sun.fortress.scala_src.typechecker.impls       -> scala.math                                         not found
+   com.sun.fortress.scala_src.typechecker.impls       -> scala.reflect                                      not found
+   com.sun.fortress.scala_src.typechecker.impls       -> scala.runtime                                      not found
+   com.sun.fortress.scala_src.typechecker.staticenv   -> com.sun.fortress.compiler                          .
+   com.sun.fortress.scala_src.typechecker.staticenv   -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.scala_src.typechecker.staticenv   -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.scala_src.typechecker.staticenv   -> com.sun.fortress.nodes                             .
+   com.sun.fortress.scala_src.typechecker.staticenv   -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.scala_src.typechecker.staticenv   -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.scala_src.typechecker.staticenv   -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.scala_src.typechecker.staticenv   -> com.sun.fortress.useful                            .
+   com.sun.fortress.scala_src.typechecker.staticenv   -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.scala_src.typechecker.staticenv   -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.scala_src.typechecker.staticenv   -> java.lang                                          java.base
+   com.sun.fortress.scala_src.typechecker.staticenv   -> java.util                                          java.base
+   com.sun.fortress.scala_src.typechecker.staticenv   -> scala                                              not found
+   com.sun.fortress.scala_src.typechecker.staticenv   -> scala.collection                                   not found
+   com.sun.fortress.scala_src.typechecker.staticenv   -> scala.collection.generic                           not found
+   com.sun.fortress.scala_src.typechecker.staticenv   -> scala.collection.immutable                         not found
+   com.sun.fortress.scala_src.typechecker.staticenv   -> scala.collection.mutable                           not found
+   com.sun.fortress.scala_src.typechecker.staticenv   -> scala.reflect                                      not found
+   com.sun.fortress.scala_src.typechecker.staticenv   -> scala.runtime                                      not found
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.compiler                          .
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.nodes                             .
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.repository                        .
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.scala_src.typechecker.staticenv   .
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.scala_src.useful                  .
+   com.sun.fortress.scala_src.types                   -> com.sun.fortress.useful                            .
+   com.sun.fortress.scala_src.types                   -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.scala_src.types                   -> java.io                                            java.base
+   com.sun.fortress.scala_src.types                   -> java.lang                                          java.base
+   com.sun.fortress.scala_src.types                   -> java.util                                          java.base
+   com.sun.fortress.scala_src.types                   -> junit.framework                                    not found
+   com.sun.fortress.scala_src.types                   -> scala                                              not found
+   com.sun.fortress.scala_src.types                   -> scala.collection                                   not found
+   com.sun.fortress.scala_src.types                   -> scala.collection.generic                           not found
+   com.sun.fortress.scala_src.types                   -> scala.collection.immutable                         not found
+   com.sun.fortress.scala_src.types                   -> scala.collection.mutable                           not found
+   com.sun.fortress.scala_src.types                   -> scala.math                                         not found
+   com.sun.fortress.scala_src.types                   -> scala.reflect                                      not found
+   com.sun.fortress.scala_src.types                   -> scala.runtime                                      not found
+   com.sun.fortress.scala_src.types                   -> scala.util.parsing.combinator                      not found
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.compiler                          .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.compiler.disambiguator            .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.compiler.typechecker              .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.nodes                             .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.scala_src.nodes                   .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.scala_src.overloading             .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.scala_src.typechecker.staticenv   .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.scala_src.types                   .
+   com.sun.fortress.scala_src.useful                  -> com.sun.fortress.useful                            .
+   com.sun.fortress.scala_src.useful                  -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.scala_src.useful                  -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.scala_src.useful                  -> java.io                                            java.base
+   com.sun.fortress.scala_src.useful                  -> java.lang                                          java.base
+   com.sun.fortress.scala_src.useful                  -> java.util                                          java.base
+   com.sun.fortress.scala_src.useful                  -> junit.framework                                    not found
+   com.sun.fortress.scala_src.useful                  -> scala                                              not found
+   com.sun.fortress.scala_src.useful                  -> scala.collection                                   not found
+   com.sun.fortress.scala_src.useful                  -> scala.collection.generic                           not found
+   com.sun.fortress.scala_src.useful                  -> scala.collection.immutable                         not found
+   com.sun.fortress.scala_src.useful                  -> scala.collection.mutable                           not found
+   com.sun.fortress.scala_src.useful                  -> scala.math                                         not found
+   com.sun.fortress.scala_src.useful                  -> scala.reflect                                      not found
+   com.sun.fortress.scala_src.useful                  -> scala.runtime                                      not found
+   com.sun.fortress.scala_src.useful                  -> scala.util.matching                                not found
+   com.sun.fortress.scala_src.useful                  -> scala.util.parsing.combinator                      not found
+   com.sun.fortress.scala_src.useful                  -> scala.util.parsing.input                           not found
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress                                   .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.compiler                          .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.compiler.phases                   .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.nodes                             .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.repository                        .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.syntax_abstractions.environments  .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.syntax_abstractions.phases        .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.syntax_abstractions.rats          .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.tests.unit_tests                  .
+   com.sun.fortress.syntax_abstractions               -> com.sun.fortress.useful                            .
+   com.sun.fortress.syntax_abstractions               -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.syntax_abstractions               -> java.io                                            java.base
+   com.sun.fortress.syntax_abstractions               -> java.lang                                          java.base
+   com.sun.fortress.syntax_abstractions               -> java.util                                          java.base
+   com.sun.fortress.syntax_abstractions               -> junit.framework                                    not found
+   com.sun.fortress.syntax_abstractions               -> xtc.parser                                         not found
+   com.sun.fortress.syntax_abstractions               -> xtc.tree                                           not found
+   com.sun.fortress.syntax_abstractions.environments  -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.syntax_abstractions.environments  -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.syntax_abstractions.environments  -> com.sun.fortress.nodes                             .
+   com.sun.fortress.syntax_abstractions.environments  -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.syntax_abstractions.environments  -> com.sun.fortress.syntax_abstractions.phases        .
+   com.sun.fortress.syntax_abstractions.environments  -> com.sun.fortress.syntax_abstractions.util          .
+   com.sun.fortress.syntax_abstractions.environments  -> com.sun.fortress.useful                            .
+   com.sun.fortress.syntax_abstractions.environments  -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.syntax_abstractions.environments  -> java.lang                                          java.base
+   com.sun.fortress.syntax_abstractions.environments  -> java.util                                          java.base
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.compiler                          .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.compiler.disambiguator            .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.nodes                             .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.parser                            .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.parser_util                       .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.repository                        .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.scala_src.typechecker             .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.syntax_abstractions               .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.syntax_abstractions.environments  .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.syntax_abstractions.rats          .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.syntax_abstractions.util          .
+   com.sun.fortress.syntax_abstractions.phases        -> com.sun.fortress.useful                            .
+   com.sun.fortress.syntax_abstractions.phases        -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.syntax_abstractions.phases        -> java.io                                            java.base
+   com.sun.fortress.syntax_abstractions.phases        -> java.lang                                          java.base
+   com.sun.fortress.syntax_abstractions.phases        -> java.lang.reflect                                  java.base
+   com.sun.fortress.syntax_abstractions.phases        -> java.util                                          java.base
+   com.sun.fortress.syntax_abstractions.phases        -> junit.framework                                    not found
+   com.sun.fortress.syntax_abstractions.phases        -> xtc.parser                                         not found
+   com.sun.fortress.syntax_abstractions.rats          -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.syntax_abstractions.rats          -> com.sun.fortress.repository                        .
+   com.sun.fortress.syntax_abstractions.rats          -> com.sun.fortress.useful                            .
+   com.sun.fortress.syntax_abstractions.rats          -> com.sun.tools.javac                                jdk.compiler
+   com.sun.fortress.syntax_abstractions.rats          -> edu.rice.cs.plt.io                                 not found
+   com.sun.fortress.syntax_abstractions.rats          -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.syntax_abstractions.rats          -> java.io                                            java.base
+   com.sun.fortress.syntax_abstractions.rats          -> java.lang                                          java.base
+   com.sun.fortress.syntax_abstractions.rats          -> java.lang.reflect                                  java.base
+   com.sun.fortress.syntax_abstractions.rats          -> java.util                                          java.base
+   com.sun.fortress.syntax_abstractions.rats          -> xtc.parser                                         not found
+   com.sun.fortress.syntax_abstractions.rats          -> xtc.tree                                           not found
+   com.sun.fortress.syntax_abstractions.rats          -> xtc.type                                           not found
+   com.sun.fortress.syntax_abstractions.util          -> com.sun.fortress.compiler                          .
+   com.sun.fortress.syntax_abstractions.util          -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.syntax_abstractions.util          -> com.sun.fortress.nodes                             .
+   com.sun.fortress.syntax_abstractions.util          -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.syntax_abstractions.util          -> java.io                                            java.base
+   com.sun.fortress.syntax_abstractions.util          -> java.lang                                          java.base
+   com.sun.fortress.syntax_abstractions.util          -> java.util                                          java.base
+   com.sun.fortress.syntax_abstractions.util          -> junit.framework                                    not found
+   com.sun.fortress.syntax_abstractions.util          -> xtc.util                                           not found
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress                                   .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.compiler                          .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.compiler.index                    .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.compiler.phases                   .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.interpreter                       .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.interpreter.evaluator             .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.interpreter.evaluator.tasks       .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.interpreter.evaluator.transactions .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.interpreter.evaluator.values      .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.interpreter.reader                .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.nodes                             .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.repository                        .
+   com.sun.fortress.tests.unit_tests                  -> com.sun.fortress.useful                            .
+   com.sun.fortress.tests.unit_tests                  -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.tests.unit_tests                  -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.tests.unit_tests                  -> java.io                                            java.base
+   com.sun.fortress.tests.unit_tests                  -> java.lang                                          java.base
+   com.sun.fortress.tests.unit_tests                  -> java.math                                          java.base
+   com.sun.fortress.tests.unit_tests                  -> java.util                                          java.base
+   com.sun.fortress.tests.unit_tests                  -> jsr166y                                            not found
+   com.sun.fortress.tests.unit_tests                  -> junit.framework                                    not found
+   com.sun.fortress.tests.unit_tests                  -> junit.swingui                                      not found
+   com.sun.fortress.tests.unit_tests                  -> junit.textui                                       not found
+   com.sun.fortress.tools                             -> com.sun.fortress.compiler                          .
+   com.sun.fortress.tools                             -> com.sun.fortress.exceptions                        .
+   com.sun.fortress.tools                             -> com.sun.fortress.nodes                             .
+   com.sun.fortress.tools                             -> com.sun.fortress.nodes_util                        .
+   com.sun.fortress.tools                             -> com.sun.fortress.repository                        .
+   com.sun.fortress.tools                             -> com.sun.fortress.useful                            .
+   com.sun.fortress.tools                             -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.tools                             -> edu.rice.cs.plt.tuple                              not found
+   com.sun.fortress.tools                             -> java.io                                            java.base
+   com.sun.fortress.tools                             -> java.lang                                          java.base
+   com.sun.fortress.tools                             -> java.util                                          java.base
+   com.sun.fortress.tools                             -> junit.framework                                    not found
+   com.sun.fortress.unicode                           -> com.sun.fortress.repository                        .
+   com.sun.fortress.unicode                           -> com.sun.fortress.useful                            .
+   com.sun.fortress.unicode                           -> java.io                                            java.base
+   com.sun.fortress.unicode                           -> java.lang                                          java.base
+   com.sun.fortress.unicode                           -> java.util                                          java.base
+   com.sun.fortress.useful                            -> edu.rice.cs.plt.collect                            not found
+   com.sun.fortress.useful                            -> edu.rice.cs.plt.iter                               not found
+   com.sun.fortress.useful                            -> edu.rice.cs.plt.lambda                             not found
+   com.sun.fortress.useful                            -> java.io                                            java.base
+   com.sun.fortress.useful                            -> java.lang                                          java.base
+   com.sun.fortress.useful                            -> java.lang.reflect                                  java.base
+   com.sun.fortress.useful                            -> java.nio.charset                                   java.base
+   com.sun.fortress.useful                            -> java.text                                          java.base
+   com.sun.fortress.useful                            -> java.util                                          java.base
+   com.sun.fortress.useful                            -> java.util.concurrent.locks                         java.base
+   com.sun.fortress.useful                            -> java.util.regex                                    java.base
+   com.sun.fortress.useful                            -> junit.framework                                    not found
+   com.sun.fortress.useful                            -> junit.swingui                                      not found
+   com.sun.java.io                                    -> java.lang                                          java.base
+   com.sun.java.lang                                  -> java.lang                                          java.base
+   fortress                                           -> com.sun.fortress.compiler.runtimeValues            .
+   fortress                                           -> com.sun.fortress.runtimeSystem                     .
+   fortress                                           -> java.lang                                          java.base

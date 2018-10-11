@@ -1,0 +1,13 @@
+#Ignore the interpreter's cached files
+*.tfs
+/default_repository/caches/analyzed_cache/
+/default_repository/caches/fortress_cache_checked/
+/default_repository/caches/fortress_cache/
+/default_repository/caches/interpreter_cache/
+/default_repository/caches/interpreter_parsed_cache/
+/default_repository/caches/presyntax_cache/
+/default_repository/caches/logs/
+/ProjectFortress/build/*
+
+#Ignore swap files
+*.swp

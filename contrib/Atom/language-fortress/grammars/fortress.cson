@@ -1,0 +1,32 @@
+'scopeName': 'source.fortress'
+'name': 'Fortress'
+'fileTypes': [
+  'fsi'
+  'fss'
+]
+'patterns': [
+  {
+    'match': '\\b(Any|Number|Integral|ZZ32|ZZ32Range|ZZ64|RR64|String|IntLiteral|FloatLiteral|Boolean)\\b'
+    'name': 'entity.name.type'
+  }
+  {
+    'match': ''
+    'name': 'entity.name.function'
+  }
+  {
+    'match': '\\b(case|most|typecase|of|try|catch|forbid|finally|if|then|elif|else|for|while|at|also|do|exit|with|throw|spawn|atomic|tryatomic|self|coerce|asif|typed|or|where|coerces|widens)\\b'
+    'name': 'keyword.control.fortress'
+  }
+  {
+    'match': '\\b(nat|int|bool|unit|opr|MIN|MAX|CMP|COMPOSE|DOT|TIMES|DIV|MOD|REM|GCD|LCM|DIVIDES|CHOOSE|SQRT|NOT|AND|OR|XOR|IMPLIES|BITNOT|BITAND|BITOR|BITXOR|LSHIFT|RSHIFT|IN|NOTIN|UNION|INTERSECTION|DIFFERENCE|SYMDIFF|SUBSET|SUBSETEQ|SUPSET|SUPSETEQ|BIG|justaposition)\\b'
+    'name': 'keyword.operator.fortress'
+  }
+  {
+    'match': ''
+    'name': ''
+  }
+  {
+    'match': ''
+    'name': ''
+  }
+]

@@ -1,0 +1,436 @@
+Using ANT_OPTS="-Xmx512m -Xss32m"
+Buildfile: /home/matt/Code/Applications/Fortress/fortress-java-9/build.xml
+
+cleanCache:
+   [delete] Deleting directory /home/matt/Code/Applications/Fortress/fortress-java-9/default_repository/caches
+
+cleanAst:
+   [delete] Deleting directory /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/nodes
+
+clean:
+   [delete] Deleting directory /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+   [delete] Deleting directory /home/matt/Code/Applications/Fortress/fortress-java-9/junit-results
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/parser/Fortress.java
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/parser/preparser/PreFortress.java
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/parser/import_collector/ImportCollector.java
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/parser/templateparser/TemplateParser.java
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/parser_util/precedence_resolver/Operators.java
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/Library/FortressAst.fsi
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/Library/FortressAst.fss
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/nodes/FortressAst.scala
+
+init:
+     [echo] basedir: ProjectFortress
+    [mkdir] Created dir: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+    [mkdir] Created dir: /home/matt/Code/Applications/Fortress/fortress-java-9/junit-results
+
+cleanCache:
+
+compileCommon:
+    [javac] Compiling 135 source files to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+checkAstgen:
+
+astGenerators:
+    [javac] Compiling 16 source files to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+checkNodesUptodate:
+     [echo] Nodes up to date? ${nodes.uptodate}
+
+makeAST:
+     [echo] Processing /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/astgen/Fortress.ast
+     [move] Moving 1071 files to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/nodes
+     [move] Moving 2 files to /home/matt/Code/Applications/Fortress/fortress-java-9/Library
+     [move] Moving 1 file to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/nodes
+
+checkParserUptodate:
+     [echo] Parser up to date? ${parser.uptodate}
+
+checkOperatorsUptodate:
+     [echo] Operators up to date? ${operators.uptodate}
+
+operatorsGen:
+     [echo] Regenerating operators
+     [java] Groups:  [curly_precedes, tri_subgroup, square_original_of, enclosing, c_2_1_multiplication, set_intersection, curly_or, range_opr, addition_and_subtraction, plain_comparison, set_union, c_2_1_division, square_intersection, subset_comparison_operators, enclosing_right, misc_set, dot_below_addition_and_subtraction, squared_multiplication_and_division, tri_misc, boolean_misc_leftAssociative, circled_addition_and_subtraction, multiplication_and_division, square_union, tri_contains, boolean_conjunction, square_image_of, square_misc, other_operators, circled_multiplication_and_division, equivalence_operators, chickenfoot_smaller, tri_multiplication_and_division, less_than_operators, superset_comparison_operators, boolean_disjunction, dot_above_addition_and_subtraction, misc_set_comparison, chickenfoot_greater, curly_and, curly_misc, greater_than_operators, relational_misc, boolean_misc_nonAssociative, tri_addition_and_subtraction, squared_addition_and_subtraction, curly_succeeds, enclosing_left, dot_above_multiplication_and_division, inequivalence_operators, misc_addition]
+
+parser:
+
+init:
+     [echo] basedir: ProjectFortress
+
+checkFortressParserUptodate:
+     [echo] Fortress parser up to date? ${parser.uptodate}
+
+fortressparser:
+     [echo] Rebuilding Fortress...
+     [java] Rats! Parser Generator, v. 1.14.1, (C) 2004-2008 Robert Grimm
+     [java] Processing Fortress.rats ...
+
+init:
+     [echo] basedir: ProjectFortress
+
+checkPreparserUptodate:
+     [echo] Preparser up to date? ${preparser.uptodate}
+
+preparser:
+     [echo] Rebuilding preparser...
+     [java] Rats! Parser Generator, v. 1.14.1, (C) 2004-2008 Robert Grimm
+     [java] Processing PreFortress.rats ...
+
+init:
+     [echo] basedir: ProjectFortress
+
+checkImportCollectorUptodate:
+     [echo] ImportCollector up to date? ${importcollector.uptodate}
+
+importcollector:
+     [echo] Rebuilding importcollector...
+     [java] Rats! Parser Generator, v. 1.14.1, (C) 2004-2008 Robert Grimm
+     [java] Processing ImportCollector.rats ...
+
+init:
+     [echo] basedir: ProjectFortress
+
+checkTemplateparserUptodate:
+     [echo] Templateparser up to date? ${templateparser.uptodate}
+
+templateparser:
+     [echo] Rebuilding template parser...
+     [java] Rats! Parser Generator, v. 1.14.1, (C) 2004-2008 Robert Grimm
+     [java] Processing TemplateParser.rats ...
+
+compileAll:
+   [scalac] Compiling 72 scala and 2192 java source files to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/AbstractMethodChecker.scala:155: warning: val keyword in for comprehension is deprecated
+   [scalac]           val f = d.asInstanceOf[FnDecl];
+   [scalac]                 ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/TypeParser.scala:35: error: object parsing is not a member of package util
+   [scalac] import scala.util.parsing.combinator._
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/TypeParser.scala:37: error: not found: type RegexParsers
+   [scalac] object TypeParser extends RegexParsers {
+   [scalac]                           ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/overloading/OverloadingJUTest.scala:32: error: value parse is not a member of object com.sun.fortress.scala_src.useful.TypeParser
+   [scalac]   def typeAnalyzer(str:String) = TypeParser.parse(TypeParser.typeAnalyzer, str).get
+   [scalac]                                             ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/TypeParser.scala:170: error: not found: type Parser
+   [scalac]   def typeAnalyzer: Parser[TypeAnalyzer] = "{" ~> repsep(traitIndex | objectIndex, ",") <~ "}" ^^
+   [scalac]                     ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/overloading/OverloadingJUTest.scala:33: error: value parse is not a member of object com.sun.fortress.scala_src.useful.TypeParser
+   [scalac]   def overloadingSet(str: String) = TypeParser.parse(TypeParser.overloadingSet, str).get
+   [scalac]                                                ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/TypeParser.scala:176: error: not found: type Parser
+   [scalac]   def overloadingSet: Parser[List[ArrowType]] = "{" ~> repsep(arrowTypeSchema, ",") <~ "}"
+   [scalac]                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/overloading/OverloadingJUTest.scala:34: error: value parse is not a member of object com.sun.fortress.scala_src.useful.TypeParser
+   [scalac]   def arrowSchema(str: String) = TypeParser.parse(TypeParser.arrowTypeSchema, str).get
+   [scalac]                                             ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/TypeParser.scala:45: error: not found: type Parser
+   [scalac]   def arrowTypeSchema: Parser[ArrowType] = opt(staticParams) ~ arrowType ^^
+   [scalac]                        ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/ConstraintJUTest.scala:22: error: value parse is not a member of object com.sun.fortress.scala_src.useful.TypeParser
+   [scalac]   def typeAnalyzer(str:String) = TypeParser.parse(TypeParser.typeAnalyzer, str).get
+   [scalac]                                             ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/ConstraintJUTest.scala:23: error: value parse is not a member of object com.sun.fortress.scala_src.useful.TypeParser
+   [scalac]   def typ(str: String) = TypeParser.parse(TypeParser.typ, str).get
+   [scalac]                                     ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/TypeParser.scala:56: error: not found: type Parser
+   [scalac]   def typ: Parser[Type] = arrowType | nonArrowType
+   [scalac]            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:25: error: value parse is not a member of object com.sun.fortress.scala_src.useful.TypeParser
+   [scalac]   def typeAnalyzer(str:String) = TypeParser.parse(TypeParser.typeAnalyzer, str).get
+   [scalac]                                             ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:26: error: value parse is not a member of object com.sun.fortress.scala_src.useful.TypeParser
+   [scalac]   def typ(str: String) = TypeParser.parse(TypeParser.typ, str).get
+   [scalac]                                     ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:27: error: value parse is not a member of object com.sun.fortress.scala_src.useful.TypeParser
+   [scalac]   def nTyp(str: String) = TypeParser.parse(TypeParser.namedType, str).get
+   [scalac]                                      ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/TypeParser.scala:70: error: not found: type Parser
+   [scalac]   def namedType: Parser[NamedType] = objectType | traitType | varType
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:32: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(False==and(False.asInstanceOf[CFormula], False.asInstanceOf[CFormula]))
+   [scalac]                          ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:33: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(False==and(False.asInstanceOf[CFormula], True.asInstanceOf[CFormula]))
+   [scalac]                          ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:34: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(False==and(True.asInstanceOf[CFormula], False.asInstanceOf[CFormula]))
+   [scalac]                          ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:35: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(True==and(True.asInstanceOf[CFormula], True.asInstanceOf[CFormula]))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:38: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(isTrue(alternateTrue))
+   [scalac]                      ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:39: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateTrue, True)==True)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:40: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateTrue, False)==False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:41: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(True, alternateTrue)==True)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:42: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(False, alternateTrue)==False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:45: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(isTrue(alternateTrue2))
+   [scalac]                      ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:46: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateTrue2, True)==True)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:47: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateTrue2, False)==False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:48: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(True, alternateTrue2)==True)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:49: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(False, alternateTrue2)==False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:52: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(isFalse(alternateFalse))
+   [scalac]                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:53: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateFalse, True)==False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:54: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateFalse, False)==False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:55: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(True, alternateFalse)==False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:56: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(False, alternateFalse)==False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:58: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateTrue, alternateTrue) == True)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:59: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateTrue, alternateTrue2) == True)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:60: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateTrue2, alternateTrue) == True)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:61: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateTrue2, alternateTrue2) == True)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:62: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateTrue, alternateFalse) == False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:63: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateFalse, alternateTrue) == False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:64: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateTrue2, alternateFalse) == False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:65: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateFalse, alternateTrue2) == False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:66: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(and(alternateFalse, alternateFalse) == False)
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:72: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(False==or(False.asInstanceOf[CFormula], False.asInstanceOf[CFormula]))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:73: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(True==or(False.asInstanceOf[CFormula], True.asInstanceOf[CFormula]))
+   [scalac]                        ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:74: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(True==or(True.asInstanceOf[CFormula], False.asInstanceOf[CFormula]))
+   [scalac]                        ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:75: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(True==or(True.asInstanceOf[CFormula], True.asInstanceOf[CFormula]))
+   [scalac]                        ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:78: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateTrue, True)==True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:79: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateTrue, False)==True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:80: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(True, alternateTrue)==True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:81: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(False, alternateTrue)==True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:84: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(isTrue(alternateTrue2))
+   [scalac]                      ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:85: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateTrue2, True)==True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:86: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateTrue2, False)==True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:87: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(True, alternateTrue2)==True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:88: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(False, alternateTrue2)==True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:91: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateFalse, True)==True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:92: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateFalse, False)==False)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:93: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(True, alternateFalse)==True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:94: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(False, alternateFalse)==False)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:96: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateTrue, alternateTrue) == True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:97: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateTrue, alternateTrue2) == True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:98: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateTrue2, alternateTrue) == True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:99: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateTrue2, alternateTrue2) == True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:100: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateTrue, alternateFalse) == True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:101: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateFalse, alternateTrue) == True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:102: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateTrue2, alternateFalse) == True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:103: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateFalse, alternateTrue2) == True)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:104: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]     assertTrue(or(alternateFalse, alternateFalse) == False)
+   [scalac]                  ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:111: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(implies(False.asInstanceOf[CFormula], False.asInstanceOf[CFormula]))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:112: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(implies(False.asInstanceOf[CFormula], True.asInstanceOf[CFormula]))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:113: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(!implies(True.asInstanceOf[CFormula], False.asInstanceOf[CFormula]))
+   [scalac]                          ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:114: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(implies(True.asInstanceOf[CFormula], True.asInstanceOf[CFormula]))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:117: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(isTrue(alternateTrue))
+   [scalac]                        ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:120: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(isTrue(alternateTrue2))
+   [scalac]                        ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:123: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(isFalse(alternateFalse))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:136: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(isFalse(c1b))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:139: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(!isFalse(b1a))
+   [scalac]                          ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:143: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(implies(bot1b, bot1a))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:146: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(implies(a1any, b1any))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:148: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(!implies(a1any, a2any))
+   [scalac]                          ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:150: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       val a1anyAnda2any = and(a1any, a2any)
+   [scalac]                              ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:151: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       val b1anyAndb2any = and(b1any, b2any)
+   [scalac]                              ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:154: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       val b1anyOrb2any = or(b1any, b2any)
+   [scalac]                            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:156: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       val a1anyOrb1any = or(a1any, a1any)
+   [scalac]                            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:157: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(implies(a1anyOrb1any, b1any))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:158: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(implies(a1anyOrb1any, a1any))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:167: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(reduce(alternateTrue)==True)
+   [scalac]                        ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:169: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(reduce(alternateTrue2)==True)
+   [scalac]                        ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:178: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(solve(False) == None)
+   [scalac]                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:179: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(solve(True) ==  tans)
+   [scalac]                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:183: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       val t = solve(alternateFalse)
+   [scalac]                    ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:185: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(solve(alternateTrue) == tans)
+   [scalac]                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:186: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(solve(alternateTrue2) == tans)
+   [scalac]                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:201: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(solve(a1).map(_._1).getOrElse(id)(ivar1) == typea)
+   [scalac]                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:206: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(solve(c1b) == None)
+   [scalac]                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:207: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(solve(b1a).map(_._1).getOrElse(id)(ivar1) == typeb)
+   [scalac]                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:209: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       val outOfBounds = and(b1a, And(Map(ivar1 -> TPrimitive(Set(), Set(), Set(typec), Set(), Set(), Set())), Map()))
+   [scalac]                            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:210: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       assertTrue(solve(outOfBounds) == None)
+   [scalac]                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/FormulaJUTest.scala:212: error: could not find implicit value for parameter ta: com.sun.fortress.scala_src.types.TypeAnalyzer
+   [scalac]       val inBounds = and(b1a, And(Map(ivar1 -> TPrimitive(Set(), Set(), Set(typea), Set(), Set(), Set())), Map()))
+   [scalac]                         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/OverloadingChecker.scala:284: warning: fruitless type test: a value of type com.sun.fortress.compiler.index.CompilationUnitIndex cannot also be a com.sun.fortress.compiler.index.ObjectTraitIndex
+   [scalac]             val traitKindAndName = (compilation_unit match { case _:ObjectTraitIndex => "object "; case _ => "trait " }) + NU.getName(traitOrObject.ast)
+   [scalac]                                                                     ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/OverloadingChecker.scala:473: warning: a pure expression does nothing in statement position; multiline expressions might require enclosing parentheses
+   [scalac]       true
+   [scalac]       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/STypeChecker.scala:551: warning: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.
+   [scalac]       case e => throw e
+   [scalac]            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/STypeChecker.scala:564: warning: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.
+   [scalac]       case e => throw e
+   [scalac]            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/STypeChecker.scala:580: warning: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.
+   [scalac]       case e => throw e
+   [scalac]            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/STypeChecker.scala:596: warning: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.
+   [scalac]       case e => throw e
+   [scalac]            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/Options.scala:59: warning: Adaptation of argument list by inserting () is deprecated: this is unlikely to be what you want.
+   [scalac]         signature: Some.apply[A](value: A): Some[A]
+   [scalac]   given arguments: <none>
+   [scalac]  after adaptation: Some((): Unit)
+   [scalac]     if (opt.isNone) Some()
+   [scalac]                         ^
+   [scalac] 8 warnings found
+   [scalac] 191 errors found

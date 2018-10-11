@@ -1,0 +1,228 @@
+Using ANT_OPTS="-Xmx512m -Xss32m"
+Buildfile: /home/matt/Code/Applications/Fortress/fortress-java-9/build.xml
+
+cleanCache:
+   [delete] Deleting directory /home/matt/Code/Applications/Fortress/fortress-java-9/default_repository/caches
+
+cleanAst:
+   [delete] Deleting directory /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/nodes
+
+clean:
+   [delete] Deleting directory /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+   [delete] Deleting directory /home/matt/Code/Applications/Fortress/fortress-java-9/junit-results
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/parser/Fortress.java
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/parser/preparser/PreFortress.java
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/parser/import_collector/ImportCollector.java
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/parser/templateparser/TemplateParser.java
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/parser_util/precedence_resolver/Operators.java
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/Library/FortressAst.fsi
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/Library/FortressAst.fss
+   [delete] Deleting: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/nodes/FortressAst.scala
+
+init:
+     [echo] basedir: ProjectFortress
+    [mkdir] Created dir: /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+    [mkdir] Created dir: /home/matt/Code/Applications/Fortress/fortress-java-9/junit-results
+
+cleanCache:
+
+compileCommon:
+    [javac] Compiling 135 source files to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+checkAstgen:
+
+astGenerators:
+    [javac] Compiling 16 source files to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+checkNodesUptodate:
+     [echo] Nodes up to date? ${nodes.uptodate}
+
+makeAST:
+     [echo] Processing /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/astgen/Fortress.ast
+     [move] Moving 1071 files to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/nodes
+     [move] Moving 2 files to /home/matt/Code/Applications/Fortress/fortress-java-9/Library
+     [move] Moving 1 file to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/nodes
+
+checkParserUptodate:
+     [echo] Parser up to date? ${parser.uptodate}
+
+checkOperatorsUptodate:
+     [echo] Operators up to date? ${operators.uptodate}
+
+operatorsGen:
+     [echo] Regenerating operators
+     [java] Groups:  [curly_precedes, tri_subgroup, square_original_of, enclosing, c_2_1_multiplication, set_intersection, curly_or, range_opr, addition_and_subtraction, plain_comparison, set_union, c_2_1_division, square_intersection, subset_comparison_operators, enclosing_right, misc_set, dot_below_addition_and_subtraction, squared_multiplication_and_division, tri_misc, boolean_misc_leftAssociative, circled_addition_and_subtraction, multiplication_and_division, square_union, tri_contains, boolean_conjunction, square_image_of, square_misc, other_operators, circled_multiplication_and_division, equivalence_operators, chickenfoot_smaller, tri_multiplication_and_division, less_than_operators, superset_comparison_operators, boolean_disjunction, dot_above_addition_and_subtraction, misc_set_comparison, chickenfoot_greater, curly_and, curly_misc, greater_than_operators, relational_misc, boolean_misc_nonAssociative, tri_addition_and_subtraction, squared_addition_and_subtraction, curly_succeeds, enclosing_left, dot_above_multiplication_and_division, inequivalence_operators, misc_addition]
+
+parser:
+
+init:
+     [echo] basedir: ProjectFortress
+
+checkFortressParserUptodate:
+     [echo] Fortress parser up to date? ${parser.uptodate}
+
+fortressparser:
+     [echo] Rebuilding Fortress...
+     [java] Rats! Parser Generator, v. 1.14.1, (C) 2004-2008 Robert Grimm
+     [java] Processing Fortress.rats ...
+
+init:
+     [echo] basedir: ProjectFortress
+
+checkPreparserUptodate:
+     [echo] Preparser up to date? ${preparser.uptodate}
+
+preparser:
+     [echo] Rebuilding preparser...
+     [java] Rats! Parser Generator, v. 1.14.1, (C) 2004-2008 Robert Grimm
+     [java] Processing PreFortress.rats ...
+
+init:
+     [echo] basedir: ProjectFortress
+
+checkImportCollectorUptodate:
+     [echo] ImportCollector up to date? ${importcollector.uptodate}
+
+importcollector:
+     [echo] Rebuilding importcollector...
+     [java] Rats! Parser Generator, v. 1.14.1, (C) 2004-2008 Robert Grimm
+     [java] Processing ImportCollector.rats ...
+
+init:
+     [echo] basedir: ProjectFortress
+
+checkTemplateparserUptodate:
+     [echo] Templateparser up to date? ${templateparser.uptodate}
+
+templateparser:
+     [echo] Rebuilding template parser...
+     [java] Rats! Parser Generator, v. 1.14.1, (C) 2004-2008 Robert Grimm
+     [java] Processing TemplateParser.rats ...
+
+compileAll:
+   [scalac] Compiling 72 scala and 1813 java source files to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+   [scalac] Element '/home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/third-party/bcel/bcel.jar' does not exist.
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/AbstractMethodChecker.scala:155: warning: val keyword in for comprehension is deprecated
+   [scalac]           val f = d.asInstanceOf[FnDecl];
+   [scalac]                 ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/OverloadingChecker.scala:284: warning: fruitless type test: a value of type com.sun.fortress.compiler.index.CompilationUnitIndex cannot also be a com.sun.fortress.compiler.index.ObjectTraitIndex
+   [scalac]             val traitKindAndName = (compilation_unit match { case _:ObjectTraitIndex => "object "; case _ => "trait " }) + NU.getName(traitOrObject.ast)
+   [scalac]                                                                     ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/OverloadingChecker.scala:473: warning: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+   [scalac]       true
+   [scalac]       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/STypeChecker.scala:551: warning: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.
+   [scalac]       case e => throw e
+   [scalac]            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/STypeChecker.scala:564: warning: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.
+   [scalac]       case e => throw e
+   [scalac]            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/STypeChecker.scala:580: warning: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.
+   [scalac]       case e => throw e
+   [scalac]            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/STypeChecker.scala:596: warning: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.
+   [scalac]       case e => throw e
+   [scalac]            ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/overloading/OverloadingOracle.scala:254: warning: match may not be exhaustive.
+   [scalac] It would fail on the following inputs: (true, false, false, false), (true, false, false, true), (true, false, true, false), (true, false, true, true)
+   [scalac]       (fST_strictlySub_gST, gDTSS_sub_fDTSS, fDTSS_sub_gDTSS, fRT_eq_gRT) match {
+   [scalac]       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/ApiTypeExtractor.scala:94: warning: unreachable code
+   [scalac]                 case _ =>
+   [scalac]                        ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/ApiTypeExtractor.scala:101: warning: unreachable code
+   [scalac]                 case _ =>
+   [scalac]                        ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/ApiTypeExtractor.scala:150: warning: unreachable code
+   [scalac]     case p => p
+   [scalac]               ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/ApiTypeExtractor.scala:183: warning: unreachable code
+   [scalac]     case _ => v
+   [scalac]               ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/CoercionOracle.scala:98: warning: match may not be exhaustive.
+   [scalac] It would fail on the following input: Some((x: com.sun.fortress.compiler.index.TypeConsIndex forSome x not in com.sun.fortress.compiler.index.TraitIndex))
+   [scalac]     val coercions = toOption(traits.typeCons(name)) match {
+   [scalac]                             ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/STypesUtil.scala:1641: warning: match may not be exhaustive.
+   [scalac] It would fail on the following input: Some((x: com.sun.fortress.compiler.index.TypeConsIndex forSome x not in com.sun.fortress.compiler.index.TraitIndex))
+   [scalac]       gi(id) match {
+   [scalac]         ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/STypesUtil.scala:1685: warning: match may not be exhaustive.
+   [scalac] It would fail on the following input: (_, Some(_))
+   [scalac]     fnsAndArgs.map{
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/STypesUtil.scala:1696: warning: match may not be exhaustive.
+   [scalac] It would fail on the following input: (_, _)
+   [scalac]     fnsAndArgs.map{case (m: DeclaredMethod, a) => m.ast}.toSet
+   [scalac]                   ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/typechecker/Formula.scala:614: warning: method erasure in trait ClassManifestDeprecatedApis is deprecated: Use runtimeClass instead
+   [scalac]     val split = xss.map{_.partition(m.erasure.isInstance(_))}.asInstanceOf[Set[(Set[U], Set[T])]]
+   [scalac]                                       ^
+   [scalac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/scala_src/useful/STypesUtil.scala:1905: warning: method erasure in trait ClassManifestDeprecatedApis is deprecated: Use runtimeClass instead
+   [scalac]     val tClass = m.erasure
+   [scalac]                    ^
+   [scalac] warning: there were 9 feature warning(s); re-run with -feature for details
+   [scalac] 19 warnings found
+   [scalac] Compile succeeded with 19 warnings; see the compiler output for details.
+    [javac] Compiling 1796 source files to /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/build
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/runtimeSystem/MethodInstantiater.java:27: error: package org.apache.bcel.internal.generic does not exist
+    [javac] import org.apache.bcel.internal.generic.INVOKEINTERFACE;
+    [javac]                                        ^
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/syntax_abstractions/rats/RatsUtil.java:35: error: reference to Module is ambiguous
+    [javac]     public static Module getRatsModule(String filename) {
+    [javac]                   ^
+    [javac]   both class xtc.parser.Module in xtc.parser and class java.lang.Module in java.lang match
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/syntax_abstractions/rats/RatsUtil.java:44: error: reference to Module is ambiguous
+    [javac]     private static Option<Module> parseRatsModule(String filename) {
+    [javac]                           ^
+    [javac]   both class xtc.parser.Module in xtc.parser and class java.lang.Module in java.lang match
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/syntax_abstractions/rats/RatsUtil.java:79: error: reference to Module is ambiguous
+    [javac]     public static void writeRatsModule(Module module, String tempDir) {
+    [javac]                                        ^
+    [javac]   both class xtc.parser.Module in xtc.parser and class java.lang.Module in java.lang match
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/nodes_util/NodeFactory.java:62: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]     public static Span makeSpan(String villain) {
+    [javac]                        ^
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/compiler/NamingCzar.java:587: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]     public static String apiNameToPackageName(APIName name) {
+    [javac]                          ^
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/compiler/NamingCzar.java:666: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]     public static String classNameForComponentEnvironment(APIName componentName) {
+    [javac]                          ^
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/compiler/NamingCzar.java:677: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]     public static String classNameForComponentEnvironment(String componentName) {
+    [javac]                          ^
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/compiler/NamingCzar.java:691: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]     public static String classNameForApiEnvironment(APIName apiName) {
+    [javac]                          ^
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/compiler/NamingCzar.java:703: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]     public static String classNameForApiEnvironment(String apiName) {
+    [javac]                          ^
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/compiler/NamingCzar.java:714: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]     private static String mangleClassIdentifier(String identifier) {
+    [javac]                           ^
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/compiler/NamingCzar.java:1000: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]     public static String jvmClassForSymbol(IdOrOp fnName) {
+    [javac]                          ^
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/syntax_abstractions/rats/RatsUtil.java:36: error: reference to Module is ambiguous
+    [javac]         Option<Module> result = parseRatsModule(filename);
+    [javac]                ^
+    [javac]   both class xtc.parser.Module in xtc.parser and class java.lang.Module in java.lang match
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/syntax_abstractions/rats/RatsUtil.java:52: error: reference to Module is ambiguous
+    [javac]                 Module n = (Module) v.value;
+    [javac]                 ^
+    [javac]   both class xtc.parser.Module in xtc.parser and class java.lang.Module in java.lang match
+    [javac] /home/matt/Code/Applications/Fortress/fortress-java-9/ProjectFortress/src/com/sun/fortress/syntax_abstractions/rats/RatsUtil.java:52: error: reference to Module is ambiguous
+    [javac]                 Module n = (Module) v.value;
+    [javac]                             ^
+    [javac]   both class xtc.parser.Module in xtc.parser and class java.lang.Module in java.lang match
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 7 errors
+    [javac] 8 warnings
